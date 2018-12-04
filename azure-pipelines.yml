@@ -16,8 +16,12 @@ jobs:
     buildConfiguration: 'Release'
 
   steps:
-  - script: dotnet build src --configuration $(buildConfiguration)
-    displayName: 'Build w/Configuration $(buildConfiguration)'
+  - task: DotNetCoreCLI@2
+    displayName: 'Build'
+    inputs:
+      command: build
+      projects: '**/*.csproj'
+      arguments: '--configuration $(buildConfiguration)'
   - task: DotNetCoreCLI@2
     displayName: 'Run Tests'
     inputs:
