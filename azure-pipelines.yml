@@ -16,7 +16,9 @@ jobs:
     buildConfiguration: 'Release'
 
   steps:
+  - script: dotnet restore
+    displayName: 'dotnet restore'
   - script: dotnet build src --configuration $(buildConfiguration)
     displayName: 'dotnet build $(buildConfiguration)'
-  - script: dotnet test src --configuration $(buildConfiguration)
-    displayName: 'dotnet test $(buildConfiguration)'
+  - script: dotnet test src
+    displayName: 'dotnet test'
