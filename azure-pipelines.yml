@@ -36,7 +36,7 @@ jobs:
   - script: dotnet test src --configuration $(buildConfiguration)
     displayName: 'dotnet test $(buildConfiguration)'
  
- - job: Windows
+- job: Windows
 
   pool:
     vmImage: 'vs2017-win2016'
