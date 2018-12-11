@@ -1,6 +1,4 @@
-[![Build Status](https://dev.azure.com/scott-ardalis/Guard%20Clauses/_apis/build/status/sdepouw.GuardClauses)](https://dev.azure.com/scott-ardalis/Guard%20Clauses/_build/latest?definitionId=1)
-
-[![NuGet](https://img.shields.io/nuget/dt/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.GuardClauses)
+[![NuGet](https://img.shields.io/nuget/dt/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.GuardClauses) [![Build Status](https://dev.azure.com/scott-ardalis/Guard%20Clauses/_apis/build/status/sdepouw.GuardClauses)](https://dev.azure.com/scott-ardalis/Guard%20Clauses/_build/latest?definitionId=1)
 
 NuGet: [Ardalis.GuardClauses](https://www.nuget.org/packages/Ardalis.GuardClauses)
 
